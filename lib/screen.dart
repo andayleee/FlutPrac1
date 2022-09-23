@@ -12,7 +12,7 @@ class _ScreenState extends State<Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.cyan,
-        body: Padding(padding: EdgeInsets.fromLTRB(20.0,0.0,20.0,0), child: 
+        body: Padding(padding: const EdgeInsets.fromLTRB(20.0,0.0,20.0,0), child: 
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
@@ -22,14 +22,14 @@ class _ScreenState extends State<Screen> {
             mainAxisSize: MainAxisSize.max,
             children: [
             Container(
-              child: Text(
+              child: const Text(
                 'medinow',
-                style: TextStyle(fontSize: 40.0, color: Colors.white, fontWeight: FontWeight. bold, fontFamily: "Raleway"),
+                style: const TextStyle(fontSize: 40.0, color: Colors.white, fontWeight: FontWeight. bold, fontFamily: "Raleway"),
               ),
               alignment: Alignment.center,
             ),
             Container(
-              child: Text(
+              child: const Text(
                 'Meditate With Us!',
                 style: TextStyle(fontSize: 17.0, color: Colors.white, fontFamily: "Raleway"),
               ),
@@ -50,8 +50,8 @@ class _ScreenState extends State<Screen> {
                     
                   },
                   
-                  child: Text('Sing in with Apple',
-                  style: TextStyle(fontSize: 17.0)),
+                  child: const Text('Sing in with Apple',
+                  style: const TextStyle(fontSize: 17.0)),
                   shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
                   color: Colors.white,
                   
@@ -59,16 +59,16 @@ class _ScreenState extends State<Screen> {
                 RaisedButton(
                   onPressed: () {
                   },
-                  child: Text('Continue with Email or Phone',
+                  child: const Text('Continue with Email or Phone',
                   style: TextStyle(fontSize: 17.0)),
                   shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
-                  color: Color.fromARGB(255, 214, 234, 251),
+                  color: const Color.fromARGB(255, 214, 234, 251),
                 ),
                 GestureDetector(
                   onTap: () {
                   },
                   
-                  child: Text(
+                  child: const Text(
                 'Continue With Google',
                 style: TextStyle(fontSize: 17.0, color: Colors.white, fontFamily: "Raleway"),
                 textAlign: TextAlign.center,

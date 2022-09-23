@@ -53,8 +53,6 @@ class _Screen2State extends State<Screen2> {
             RaisedButton.icon(
                   onPressed: () {
                   },
-                  
-                  
                   icon: Icon(Icons.play_arrow_outlined, color: Colors.white,),
                   label: Text('Play Next Session',
                   style: TextStyle(fontSize: 17.0, color: Colors.white )),
