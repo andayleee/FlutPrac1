@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:prac1/screen.dart';
-import 'package:prac1/screen2.dart';
-import 'package:prac1/screen3.dart';
+import 'package:prac1/Medinow.dart';
+import 'package:prac1/MindDeepRelax.dart';
+import 'package:prac1/Meditate.dart';
 
 void main() {
-  runApp(const App());
+  runApp(const Prac1());
 }
 
-class App extends StatelessWidget {
-const App({super.key});
+class Prac1 extends StatelessWidget {
+const Prac1({super.key});
 
 @override
 Widget build(BuildContext context) {
 return const MaterialApp(
 debugShowCheckedModeBanner: false,
-home: Screen3(),
+home: Meditate(),
 );
 }
 }
@@ -22,7 +22,7 @@ home: Screen3(),
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  // This widget is the home page of your application. It is stateful, meaning
+  // This widget is the home page of your application. It is stateful, meaning 
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
 
