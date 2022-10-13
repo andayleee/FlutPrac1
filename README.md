@@ -1,16 +1,42 @@
-# prac2
+# ПРАКТИЧЕСКАЯ РАБОТА №2
+## Работа с SQLite во Flutter.
+Цель работы: изучить лекционный материал и выполнить практическую работу №2, в которой необходимо разработать базу данных для магазина мебели.
 
-A new Flutter project.
+--------------------------------
 
-## Getting Started
+Ход работы:
 
-This project is a starting point for a Flutter application.
+Во-первых, следует для работы с БД прописать подключения следующих библиотек в файле pubspec.yaml:
 
-A few resources to get you started if this is your first Flutter project:
+<img src="assets/A.png" width="500" height="200" style="max-width: 100%;">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Рисунок 1 - Подключенные библиотеки для работы с БД
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Во-вторых, нужно создать 2 файла: data_base_request.dart и data_base_helper.dart. В data_base_request.dart прописаны все запросы для создания таблиц, а в data_base_helper.dart, где прописаны функции для взаимодействия с базой данных.
+
+ <img src="assets/B.png" width="500" height="300" style="max-width: 100%;">
+
+Рисунок 2 - Файл data_base_request.dart
+
+  <img src="assets/C.png" width="500" height="400" style="max-width: 100%;">
+
+Рисунок 3 - Файл data_base_helper.dart
+
+Далее необходимо разработать базу данных мебельного магазина.
+
+ Она состоит из 9 таблиц, представленных на модели ниже:
+
+   <img src="assets/D.png" width="500" height="200" style="max-width: 100%;">
+Рисунок 4 - База данных мебельного магазина
+
+Реализация в Flutter: сущности и модели.
+    <img src="assets/E.png" width="500" height="100" style="max-width: 100%;">
+Рисунок 5 - Файл client_entity.dart
+    <img src="assets/F.png" width="500" height="200" style="max-width: 100%;">
+Рисунок 9 - Файл client.dart
+
+Далее все таблицы, описанные в модели, делаются подобным образом.
+
+--------------------------------
+
+Вывод: в ходе выполнения данной практической работы удалось изучить лекционный материал и выполнить практическую работу №2, в которой необходимо разработать базу данных для магазина мебели.
