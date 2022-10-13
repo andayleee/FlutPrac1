@@ -37,7 +37,7 @@
 
 <img src="assets/F.png" width="500" height="200" style="max-width: 100%;">
 
-Рисунок 9 - Файл client.dart
+Рисунок 6 - Файл client.dart
 
 Далее все таблицы, описанные в модели, делаются подобным образом.
 
