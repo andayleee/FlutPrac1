@@ -30,9 +30,13 @@
 Рисунок 4 - База данных мебельного магазина
 
 Реализация в Flutter: сущности и модели.
-    <img src="assets/E.png" width="500" height="100" style="max-width: 100%;">
+    
+<img src="assets/E.png" width="500" height="100" style="max-width: 100%;">
+
 Рисунок 5 - Файл client_entity.dart
-    <img src="assets/F.png" width="500" height="200" style="max-width: 100%;">
+
+<img src="assets/F.png" width="500" height="200" style="max-width: 100%;">
+
 Рисунок 9 - Файл client.dart
 
 Далее все таблицы, описанные в модели, делаются подобным образом.
