@@ -1,10 +1,11 @@
-import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:prac2/core/db/data_base_helper.dart';
 
-void main() {
+void main() async {
+  await DataBaseHelper.instance.init();
   //DataBaseHelper.instance.test();
   runApp(const App());
+
 }
 
 class App extends StatelessWidget {

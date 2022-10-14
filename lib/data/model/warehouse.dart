@@ -9,7 +9,7 @@ class Warehouse extends WarehouseEntity{
 Warehouse({required this.ID_Warehouse, required this.Address_of_Warehouse,}):super(ID_Warehouse:ID_Warehouse,  Address_of_Warehouse:Address_of_Warehouse,);
 
 Map<String,dynamic> toMap(){
-   return{'ID_Warehouse':ID_Warehouse,'Address_of_Warehouse':Address_of_Warehouse,};
+   return{'Address_of_Warehouse':Address_of_Warehouse,};
 }
 
 factory Warehouse.toFromMap(Map<String,dynamic> json){

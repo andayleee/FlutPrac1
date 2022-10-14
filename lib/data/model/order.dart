@@ -11,7 +11,7 @@ class Order extends OrderEntity{
 Order({required this.ID_Order, required this.Sum_of_Order,required this.Users_ID,required this.Furniture_ID,}):super(ID_Order:ID_Order,  Sum_of_Order:Sum_of_Order, Users_ID:Users_ID, Furniture_ID:Furniture_ID,);
 
 Map<String,dynamic> toMap(){
-   return{'ID_Order':ID_Order,' Sum_of_Order':Sum_of_Order,' Users_ID':Users_ID,' Furniture_ID':Furniture_ID,};
+   return{'Sum_of_Order':Sum_of_Order,'Users_ID':Users_ID,'Furniture_ID':Furniture_ID,};
 }
 
 factory Order.toFromMap(Map<String,dynamic> json){

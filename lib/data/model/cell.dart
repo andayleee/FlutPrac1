@@ -11,7 +11,7 @@ class Cell extends CellEntity{
 Cell({required this.ID_Cell, required this.Count_of_Furniture,required this.Warehouse_ID,required this.Furniture_ID,}):super(ID_Cell:ID_Cell,  Count_of_Furniture:Count_of_Furniture, Warehouse_ID:Warehouse_ID, Furniture_ID:Furniture_ID,);
 
 Map<String,dynamic> toMap(){
-   return{'ID_Cell':ID_Cell,'Count_of_Furniture':Count_of_Furniture,'Warehouse_ID':Warehouse_ID,'Furniture_ID':Furniture_ID,};
+   return{'Count_of_Furniture':Count_of_Furniture,'Warehouse_ID':Warehouse_ID,'Furniture_ID':Furniture_ID,};
 }
 
 factory Cell.toFromMap(Map<String,dynamic> json){

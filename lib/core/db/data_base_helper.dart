@@ -22,7 +22,7 @@ class DataBaseHelper {
   Future<void> init() async {
     _appDocumentDirectory =
         await path_provider.getApplicationDocumentsDirectory();
-    _pathDB = join(_appDocumentDirectory.path, 'boockstore.db');
+    _pathDB = join(_appDocumentDirectory.path, 'furniturestore.db');
 
     if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
       sqfliteFfiInit();
@@ -84,7 +84,7 @@ class DataBaseHelper {
   Future<void> onDropDataBase() async {
     database.close();
     if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
-      databaseFactory.deleteDatabase(_pathDB);
+      databaseFactoryFfi.deleteDatabase(_pathDB);
     } else {
       deleteDatabase(_pathDB);
     }
