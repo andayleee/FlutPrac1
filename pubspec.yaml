@@ -43,6 +43,9 @@ dependencies:
   #работа с файлами
   path_provider: ^2.0.11
 
+  dartz: ^0.10.1
+
+
 
 dev_dependencies:
   flutter_test:
